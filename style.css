@@ -144,7 +144,10 @@
 }
 
 
-
+.problem-card:hover {
+    transform: translateY(-10px);
+    cursor: pointer;
+}
 
 .icon-circle {
     width: 50px;
