@@ -6,15 +6,15 @@
 }
 
 .container{
-    max-width: 1140px;
-    margin:0 auto;
-    padding: 0 20px;
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0 40px;
 }
 
 .top-nav{
 
      max-width: 1600px;
-    width: 1300px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -80,7 +80,6 @@
     justify-content: center;
     text-align: center;
     color: #fff;
-    background-repeat: no-repeat;
 }
 
 .status-bar{
@@ -138,10 +137,43 @@
 .problem-card {
     flex: 1;
     background: #ffffff;
-    padding: 32px 24px;
+    padding: 35px 25px;
     border-radius: 12px;
     box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05); 
     transition: transform 0.3s ease; 
+}
+
+
+.problem-card:hover {
+    transform: translateY(-10px);
+    cursor: pointer;
+}
+
+.icon-circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 20px;
+}
+
+
+.card-red .icon-circle { background-color: #f04141; }
+.card-orange .icon-circle { background-color: #f04141; }
+.card-pink .icon-circle { background-color: #f04141; }
+.card-blue .icon-circle { background-color: #f04141; }
+
+.problem-card h4 {
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+
+.problem-card p {
+    font-size: 14px;
+    color: #060606;
+    line-height: 1.5;
 }
 
 
@@ -229,6 +261,7 @@
     list-style: none; 
     padding: 0;
 }
+
 .value-list li {
     display: flex;
     align-items: center;
@@ -242,3 +275,71 @@
     width: 20px; 
     height: 20px;
 }
+
+.ready{
+  background-color: #f7f6f2;
+  padding: 40px;
+  border-radius: 10px;
+  margin-top: 200px 127px ;
+  margin-bottom: 80px;
+}
+.ready div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.ready div h1 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.ready div p {
+ 
+  width: 596px;
+  text-align: center;
+  line-height: 24px;
+  color: #627382;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+.ready button {
+  margin-bottom: 14px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.main-footer {
+    background-color: #001931;
+    color: #fff;
+    padding: 60px 0 20px;
+}
+
+.footer-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.footer-c {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 14px;
+    color: #9ca3af;
+}
+
+.footer-social img {
+    width: 24px; 
+    height: 24px;
+    
+  
+}
+
