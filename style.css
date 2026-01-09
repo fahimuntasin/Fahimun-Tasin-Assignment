@@ -12,8 +12,48 @@
 }
 
 .top-nav{
+
+     max-width: 1600px;
+    width: 1300px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 24px 20px;
+    padding: 16px 120px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 152%;
+}
+
+.nav-menu{
+    display: flex;
+    list-style: none;
+    gap: 35px;
+}
+
+.nav-menu a{
+    text-decoration: none;
+    color: #000000;
+    font-weight: 500;
+}
+
+.first-big-btn{
+    background-color: #469165;
+    color:  #FFFFFF;
+    padding: 16px ;
+    border: none;
+    border-radius:4px ;
+    gap: 10px;
+    font-weight: 600;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.first-big-btn:hover{
+    background-color: #df790c;
+    transform: translate(-2px);
+}
+
+.second-button{
+    
 }
