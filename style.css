@@ -71,7 +71,7 @@
     background:rgba(255, 255, 255, 0.1);;
 }
 .banner-display {
-    background:  url("/assets/hero-bg.png");
+    background:  url("./assets/hero-bg.png");
     background-size: cover;
     background-position: center;
     min-height: 674px;
