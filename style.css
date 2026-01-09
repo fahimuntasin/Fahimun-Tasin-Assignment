@@ -80,6 +80,7 @@
     justify-content: center;
     text-align: center;
     color: #fff;
+    background-repeat: no-repeat;
 }
 
 .status-bar{
@@ -174,4 +175,70 @@
     font-size: 14px;
     color: #060606;
     line-height: 1.5;
+}
+
+.brain-showcase {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    gap: 80px 0; 
+    padding: 120px 0;
+}
+
+.image-all {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.image-all img {
+    max-width: 100%;
+    height: auto;
+}
+
+.text {
+    flex: 1;
+}
+
+.Label {
+    color: #30b868; 
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 1.2px;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.text h2 {
+    font-size: 48px;
+    color: #001931;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.brain-description {
+    color: #627382;
+    line-height: 1.6;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+
+.value-list {
+    list-style: none; 
+    padding: 0;
+}
+.value-list li {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 18px;
+    color: #374151;
+    font-size: 16px;
+}
+
+.value-list li img {
+    width: 20px; 
+    height: 20px;
 }
